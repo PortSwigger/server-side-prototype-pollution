@@ -20,6 +20,7 @@ class PrototypePollutionBodyScanTest {
         for(int i=0;i<jsonStrings.length;i++) {
             String jsonString = jsonStrings[i];
             JsonElement json = parser.parse(jsonString);
+            System.out.println("JSON:"+json);
             assertEquals(jsonString, PrototypePollutionBodyScan.generateJsonString(json, null, null, null, null));
         }
     }

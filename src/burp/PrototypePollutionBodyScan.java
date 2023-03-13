@@ -233,7 +233,7 @@ public class PrototypePollutionBodyScan extends Scan {
             output += ",";
         }
 
-        if(members.size() == 0) {
+        if(members.size() == 0 && newPropertyName != null) {
             output += new JsonPrimitive(newPropertyName) + ":" + newValue;
         }
 
