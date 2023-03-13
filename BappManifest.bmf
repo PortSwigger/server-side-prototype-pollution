@@ -1,9 +1,9 @@
-Uuid:
+Uuid: c1d4bd60626d4178a54d36ee802cf7e8
 ExtensionType: 1
-Name: Server side prototype pollution scanner
+Name: Server-Side Prototype Pollution Scanner
 RepoName: server-side-prototype-pollution
-ScreenVersion: 1.0.3
-SerialVersion:
+ScreenVersion: 1.0.8
+SerialVersion: 4
 MinPlatformVersion: 0
 ProOnly: False
 Author: Gareth Heyes, PortSwigger Web Security
